@@ -1,25 +1,12 @@
-# 🎈 Blank app template
+# MBA Surgical Challenge · SOBACIR 2026
 
-A simple Streamlit app template for you to modify!
+Aplicación Streamlit que sirve el juego completo de SOBACIR 2026 en un único despliegue web.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Streamlit Community Cloud
 
-### How to run it on your own machine
+- Repository: `dukvanmid/blank-app`
+- Branch: `main`
+- Main file path: `streamlit_app.py`
+- App URL sugerida: `mba-sobacir-2026`
 
-Prerequisite: install `uv` if you don't already have it.
-
-```
-$ curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-1. Sync the dependencies
-
-   ```
-   $ uv sync
-   ```
-
-2. Run the app
-
-   ```
-   $ uv run streamlit run streamlit_app.py
-   ```
+El juego se carga desde `app_payload/`, que contiene el HTML completo comprimido, incluidas las imágenes y logotipos necesarios para el funcionamiento autónomo.
